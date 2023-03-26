@@ -14,7 +14,7 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    使用建表语句快速生成mybatis的数据层，无需连接数据库<br>
+        Quickly generate the data layer of mybatis using table creation statements without connecting to the database<br>
     <em>mybatis auto dao createTable sql</em>
   ]]></description>
 
@@ -28,7 +28,7 @@
 
     </extensions>
     <actions>
-        <action id="GetPasteInfo_id" class="com.automybatis.automybatis.GetPasteInfoAction" text="GetPasteInfoAction"
+        <action id="GetPasteInfo_id" class="com.automybatis.automybatis.GetPasteInfoAction" text="选中sql生成mybatis"
                 description="获取右键选中的内容">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
             <keyboard-shortcut keymap="$default" first-keystroke="alt G"/>

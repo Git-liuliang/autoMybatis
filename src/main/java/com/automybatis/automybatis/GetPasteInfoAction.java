@@ -65,7 +65,7 @@ public class GetPasteInfoAction extends AnAction {
         Map<String,Object> option = new HashMap<>();
 
         option.put("dataType","sql");
-        option.put("authorName","liull_mios");
+        option.put("authorName","autoMybatis");
         option.put("packageName","com.sitech.boss.dao");
         option.put("nameCaseType","CamelCase");
         option.put("path",parentPath);

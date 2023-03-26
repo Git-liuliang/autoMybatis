@@ -65,12 +65,12 @@ public class FreemarkerUtil {
         if (StringUtils.isNotBlank(outFilePath)){
 
             File docFile = new File(outFilePath + "\\" + result);
-            Writer out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(docFile)));
+            Writer out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(docFile),"utf-8"));
             template.process(model, out);
             out.close();
         }else {
             File docFile = new File(CLASS_PATH + "\\" + result);
-            Writer out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(docFile)));
+            Writer out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(docFile),"utf-8"));
             template.process(model, out);
             out.close();
         }
