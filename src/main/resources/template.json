@@ -1,0 +1,22 @@
+[
+  {
+    "group": "mybatis",
+    "templates": [
+      {
+        "id": "23",
+        "name": "mapper",
+        "description": "mapper"
+      },
+      {
+        "id": "24",
+        "name": "mybatis",
+        "description": "mybatis"
+      },
+      {
+        "id": "25",
+        "name": "model",
+        "description": "model"
+      }
+    ]
+  }
+]

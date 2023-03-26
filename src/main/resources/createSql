@@ -1,0 +1,8 @@
+CREATE TABLE `td_hsh_gold_count` (
+  `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '自增id',
+  `phone_no` varchar(20) NOT NULL COMMENT '手机号',
+  `exc_count` int(10) NOT NULL DEFAULT '0' COMMENT '累积兑换次数',
+  `update_time` datetime DEFAULT CURRENT_TIMESTAMP  ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  `remark` varchar(255) DEFAULT NULL COMMENT '扩展字段',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='金币兑换实物累积兑换次数表';
